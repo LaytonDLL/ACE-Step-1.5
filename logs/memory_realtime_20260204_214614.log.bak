@@ -1,0 +1,36 @@
+
+################################################################################
+# ACE-Step Memory Logger Started
+# Time: 2026-02-04T21:44:40.581609
+# Min Free RAM Threshold: 5.0GB
+################################################################################
+
+
+================================================================================
+[2026-02-04 21:44:40.626] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      3.93 GB (25.2%)
+  Available: 11.66 GB
+  Free:      8.83 GB
+  Cached:    2.84 GB
+  Swap Used: 0.00 / 1.91 GB
+
+GPU: 45°C
+  Used:  211 MB (1.7%)
+  Free:  11699 MB
+  Total: 12288 MB
+
+Top Processes:
+  [  9222]   7.1%   1141.6MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   3.9%    630.8MB  /usr/share/antigravity/antigravity --typ
+  [  4353]   2.7%    434.0MB  /usr/bin/gnome-shell
+  [  4644]   2.5%    406.8MB  /usr/bin/gnome-software --gapplication-s
+  [  8060]   1.6%    264.1MB  /usr/share/antigravity/antigravity --typ
+
+################################################################################
+# ACE-Step Memory Logger Stopped
+# Time: 2026-02-04T21:44:45.710588
+################################################################################
+

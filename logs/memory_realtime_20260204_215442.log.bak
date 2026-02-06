@@ -1,0 +1,1784 @@
+
+################################################################################
+# ACE-Step Memory Logger Started
+# Time: 2026-02-04T21:48:09.801801
+# Min Free RAM Threshold: 5.0GB
+################################################################################
+
+
+================================================================================
+[2026-02-04 21:48:09.835] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      4.37 GB (28.1%)
+  Available: 11.21 GB
+  Free:      7.63 GB
+  Cached:    3.58 GB
+  Swap Used: 0.00 / 1.91 GB
+
+GPU: 46°C
+  Used:  241 MB (2.0%)
+  Free:  11670 MB
+  Total: 12288 MB
+
+Top Processes:
+  [  9222]   8.4%   1351.1MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   4.0%    650.5MB  /usr/share/antigravity/antigravity --typ
+  [  4353]   2.7%    434.0MB  /usr/bin/gnome-shell
+  [  4644]   2.5%    406.8MB  /usr/bin/gnome-software --gapplication-s
+  [  8060]   1.6%    266.8MB  /usr/share/antigravity/antigravity --typ
+
+================================================================================
+[2026-02-04 21:48:14.958] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      4.82 GB (30.9%)
+  Available: 10.76 GB
+  Free:      7.18 GB
+  Cached:    3.58 GB
+  Swap Used: 0.00 / 1.91 GB
+
+GPU: 45°C
+  Used:  214 MB (1.7%)
+  Free:  11697 MB
+  Total: 12288 MB
+
+Top Processes:
+  [  9222]   8.4%   1351.1MB  /usr/share/antigravity/resources/app/ext
+  [ 67033]   4.7%    757.7MB  python3 -m acestep.acestep_v15_pipeline 
+  [  8083]   4.0%    653.7MB  /usr/share/antigravity/antigravity --typ
+  [  4353]   2.7%    434.0MB  /usr/bin/gnome-shell
+  [  4644]   2.5%    406.8MB  /usr/bin/gnome-software --gapplication-s
+
+================================================================================
+[2026-02-04 21:48:20.062] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      5.00 GB (32.1%)
+  Available: 10.59 GB
+  Free:      5.78 GB
+  Cached:    4.81 GB
+  Swap Used: 0.00 / 1.91 GB
+
+GPU: 47°C
+  Used:  1496 MB (12.2%)
+  Free:  10415 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  13.7%   2191.0MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   8.4%   1351.2MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   4.1%    655.2MB  /usr/share/antigravity/antigravity --typ
+  [  4353]   2.7%    433.9MB  /usr/bin/gnome-shell
+  [  4644]   2.5%    406.8MB  /usr/bin/gnome-software --gapplication-s
+
+================================================================================
+[2026-02-04 21:48:25.157] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      5.00 GB (32.1%)
+  Available: 10.58 GB
+  Free:      3.30 GB
+  Cached:    7.28 GB
+  Swap Used: 0.00 / 1.91 GB
+
+GPU: 48°C
+  Used:  4083 MB (33.2%)
+  Free:  7827 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  29.8%   4761.5MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   8.4%   1351.2MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   4.1%    659.1MB  /usr/share/antigravity/antigravity --typ
+  [  4353]   2.7%    433.9MB  /usr/bin/gnome-shell
+  [  4644]   2.5%    406.8MB  /usr/bin/gnome-software --gapplication-s
+
+================================================================================
+[2026-02-04 21:48:30.263] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      6.47 GB (41.5%)
+  Available: 9.11 GB
+  Free:      0.23 GB
+  Cached:    8.90 GB
+  Swap Used: 0.00 / 1.91 GB
+
+GPU: 49°C
+  Used:  5731 MB (46.6%)
+  Free:  6180 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  20.1%   3209.1MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   8.4%   1351.2MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   4.1%    662.7MB  /usr/share/antigravity/antigravity --typ
+  [  4353]   2.7%    433.9MB  /usr/bin/gnome-shell
+  [  4644]   2.5%    406.8MB  /usr/bin/gnome-software --gapplication-s
+
+================================================================================
+[2026-02-04 21:48:35.358] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      6.52 GB (41.9%)
+  Available: 9.06 GB
+  Free:      0.95 GB
+  Cached:    8.18 GB
+  Swap Used: 0.00 / 1.91 GB
+
+GPU: 49°C
+  Used:  7255 MB (59.0%)
+  Free:  4655 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  15.1%   2420.8MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   8.4%   1351.2MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   4.1%    663.7MB  /usr/share/antigravity/antigravity --typ
+  [  4353]   2.7%    434.1MB  /usr/bin/gnome-shell
+  [  4644]   2.5%    406.3MB  /usr/bin/gnome-software --gapplication-s
+
+================================================================================
+[2026-02-04 21:48:40.454] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      6.43 GB (41.2%)
+  Available: 9.16 GB
+  Free:      1.05 GB
+  Cached:    8.18 GB
+  Swap Used: 0.00 / 1.91 GB
+
+GPU: 50°C
+  Used:  7266 MB (59.1%)
+  Free:  4644 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  15.1%   2420.8MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   8.4%   1351.2MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   4.2%    674.6MB  /usr/share/antigravity/antigravity --typ
+  [  4353]   2.7%    434.0MB  /usr/bin/gnome-shell
+  [  4644]   2.5%    406.3MB  /usr/bin/gnome-software --gapplication-s
+
+================================================================================
+[2026-02-04 21:48:45.553] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      6.42 GB (41.2%)
+  Available: 9.16 GB
+  Free:      1.05 GB
+  Cached:    8.18 GB
+  Swap Used: 0.00 / 1.91 GB
+
+GPU: 50°C
+  Used:  7250 MB (59.0%)
+  Free:  4661 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  15.1%   2420.8MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   8.4%   1351.2MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   4.2%    675.1MB  /usr/share/antigravity/antigravity --typ
+  [  4353]   2.7%    433.9MB  /usr/bin/gnome-shell
+  [  4644]   2.5%    406.3MB  /usr/bin/gnome-software --gapplication-s
+
+================================================================================
+[2026-02-04 21:48:50.660] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      6.41 GB (41.2%)
+  Available: 9.17 GB
+  Free:      1.06 GB
+  Cached:    8.18 GB
+  Swap Used: 0.00 / 1.91 GB
+
+GPU: 49°C
+  Used:  7250 MB (59.0%)
+  Free:  4661 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  15.1%   2420.8MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   8.4%   1351.2MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   4.2%    676.5MB  /usr/share/antigravity/antigravity --typ
+  [  4353]   2.7%    433.9MB  /usr/bin/gnome-shell
+  [  4644]   2.5%    406.3MB  /usr/bin/gnome-software --gapplication-s
+
+================================================================================
+[2026-02-04 21:48:55.789] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      6.31 GB (40.5%)
+  Available: 9.27 GB
+  Free:      1.16 GB
+  Cached:    8.19 GB
+  Swap Used: 0.00 / 1.91 GB
+
+GPU: 49°C
+  Used:  7259 MB (59.1%)
+  Free:  4651 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  15.1%   2420.8MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   8.4%   1351.7MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   3.7%    601.2MB  /usr/share/antigravity/antigravity --typ
+  [  4353]   2.7%    433.9MB  /usr/bin/gnome-shell
+  [  4644]   2.5%    406.3MB  /usr/bin/gnome-software --gapplication-s
+
+================================================================================
+[2026-02-04 21:49:00.912] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      6.31 GB (40.5%)
+  Available: 9.27 GB
+  Free:      1.16 GB
+  Cached:    8.17 GB
+  Swap Used: 0.00 / 1.91 GB
+
+GPU: 48°C
+  Used:  7259 MB (59.1%)
+  Free:  4651 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  14.7%   2347.3MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   8.4%   1351.7MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   4.1%    663.7MB  /usr/share/antigravity/antigravity --typ
+  [  4353]   2.7%    433.9MB  /usr/bin/gnome-shell
+  [  4644]   2.5%    406.3MB  /usr/bin/gnome-software --gapplication-s
+
+================================================================================
+[2026-02-04 21:49:06.370] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      7.99 GB (51.3%)
+  Available: 7.59 GB
+  Free:      0.25 GB
+  Cached:    7.50 GB
+  Swap Used: 0.08 / 1.91 GB
+
+GPU: 48°C
+  Used:  7257 MB (59.1%)
+  Free:  4654 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  33.9%   5425.9MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   8.0%   1287.1MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   2.9%    473.7MB  /usr/share/antigravity/antigravity --typ
+  [  4353]   1.9%    317.6MB  /usr/bin/gnome-shell
+  [  4644]   1.9%    311.6MB  /usr/bin/gnome-software --gapplication-s
+
+================================================================================
+[2026-02-04 21:49:11.560] MEMORY SNAPSHOT
+================================================================================
+RAM: 🔴 CRITICAL
+  Total:     15.59 GB
+  Used:      10.89 GB (69.9%)
+  Available: 4.69 GB
+  Free:      0.18 GB
+  Cached:    4.69 GB
+  Swap Used: 0.22 / 1.91 GB
+
+GPU: 48°C
+  Used:  7255 MB (59.0%)
+  Free:  4655 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  65.3%  10425.8MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   8.0%   1287.1MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   3.1%    496.5MB  /usr/share/antigravity/antigravity --typ
+  [  4353]   1.7%    281.6MB  /usr/bin/gnome-shell
+  [  4644]   1.6%    260.2MB  /usr/bin/gnome-software --gapplication-s
+
+================================================================================
+[2026-02-04 21:49:12.649] MEMORY SNAPSHOT
+================================================================================
+RAM: 🔴 CRITICAL
+  Total:     15.59 GB
+  Used:      11.69 GB (75.0%)
+  Available: 3.89 GB
+  Free:      0.15 GB
+  Cached:    3.94 GB
+  Swap Used: 0.24 / 1.91 GB
+
+GPU: 48°C
+  Used:  7255 MB (59.0%)
+  Free:  4655 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  71.5%  11419.4MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   8.0%   1287.3MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   3.1%    500.9MB  /usr/share/antigravity/antigravity --typ
+  [  4353]   1.6%    270.8MB  /usr/bin/gnome-shell
+  [  4644]   1.5%    252.9MB  /usr/bin/gnome-software --gapplication-s
+
+================================================================================
+[2026-02-04 21:49:13.851] MEMORY SNAPSHOT
+================================================================================
+RAM: 🔴 CRITICAL
+  Total:     15.59 GB
+  Used:      11.90 GB (76.4%)
+  Available: 3.68 GB
+  Free:      0.16 GB
+  Cached:    3.75 GB
+  Swap Used: 0.43 / 1.91 GB
+
+GPU: 48°C
+  Used:  7254 MB (59.0%)
+  Free:  4656 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  71.8%  11473.7MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   8.0%   1287.2MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   2.6%    426.9MB  /usr/share/antigravity/antigravity --typ
+  [  4353]   1.5%    249.0MB  /usr/bin/gnome-shell
+  [  4644]   1.5%    246.8MB  /usr/bin/gnome-software --gapplication-s
+
+================================================================================
+[2026-02-04 21:49:18.950] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      8.63 GB (55.4%)
+  Available: 6.95 GB
+  Free:      3.37 GB
+  Cached:    3.80 GB
+  Swap Used: 0.52 / 1.91 GB
+
+GPU: 50°C
+  Used:  11053 MB (89.9%)
+  Free:  857 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  33.3%   5318.2MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   8.0%   1287.3MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   2.6%    427.6MB  /usr/share/antigravity/antigravity --typ
+  [  4353]   1.5%    249.0MB  /usr/bin/gnome-shell
+  [  4644]   1.5%    246.8MB  /usr/bin/gnome-software --gapplication-s
+
+================================================================================
+[2026-02-04 21:49:24.046] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      8.62 GB (55.3%)
+  Available: 6.97 GB
+  Free:      3.36 GB
+  Cached:    3.82 GB
+  Swap Used: 0.52 / 1.91 GB
+
+GPU: 51°C
+  Used:  11054 MB (90.0%)
+  Free:  856 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  33.3%   5318.2MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   8.0%   1287.3MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   2.7%    432.8MB  /usr/share/antigravity/antigravity --typ
+  [  4353]   1.5%    249.0MB  /usr/bin/gnome-shell
+  [  4644]   1.5%    246.8MB  /usr/bin/gnome-software --gapplication-s
+
+================================================================================
+[2026-02-04 21:49:29.143] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      8.67 GB (55.6%)
+  Available: 6.92 GB
+  Free:      3.31 GB
+  Cached:    3.83 GB
+  Swap Used: 0.52 / 1.91 GB
+
+GPU: 51°C
+  Used:  11050 MB (89.9%)
+  Free:  860 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  33.3%   5318.2MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   8.0%   1287.3MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   2.7%    440.7MB  /usr/share/antigravity/antigravity --typ
+  [  4353]   1.5%    249.0MB  /usr/bin/gnome-shell
+  [  4644]   1.5%    246.8MB  /usr/bin/gnome-software --gapplication-s
+
+================================================================================
+[2026-02-04 21:49:34.250] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      8.64 GB (55.4%)
+  Available: 6.95 GB
+  Free:      3.33 GB
+  Cached:    3.83 GB
+  Swap Used: 0.51 / 1.91 GB
+
+GPU: 50°C
+  Used:  11054 MB (90.0%)
+  Free:  857 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  33.3%   5318.2MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   8.0%   1288.0MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   2.7%    442.1MB  /usr/share/antigravity/antigravity --typ
+  [  4353]   1.5%    249.0MB  /usr/bin/gnome-shell
+  [  4644]   1.5%    246.8MB  /usr/bin/gnome-software --gapplication-s
+
+================================================================================
+[2026-02-04 21:49:39.371] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      8.63 GB (55.4%)
+  Available: 6.95 GB
+  Free:      3.34 GB
+  Cached:    3.83 GB
+  Swap Used: 0.51 / 1.91 GB
+
+GPU: 49°C
+  Used:  11050 MB (89.9%)
+  Free:  860 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  33.3%   5318.2MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   8.0%   1288.0MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   2.7%    443.4MB  /usr/share/antigravity/antigravity --typ
+  [  4353]   1.5%    250.8MB  /usr/bin/gnome-shell
+  [  4644]   1.5%    246.8MB  /usr/bin/gnome-software --gapplication-s
+
+================================================================================
+[2026-02-04 21:49:44.491] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      8.64 GB (55.4%)
+  Available: 6.95 GB
+  Free:      3.33 GB
+  Cached:    3.83 GB
+  Swap Used: 0.51 / 1.91 GB
+
+GPU: 49°C
+  Used:  11050 MB (89.9%)
+  Free:  860 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  33.3%   5318.2MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   8.0%   1288.0MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   2.7%    443.3MB  /usr/share/antigravity/antigravity --typ
+  [  4353]   1.5%    250.8MB  /usr/bin/gnome-shell
+  [  4644]   1.5%    246.8MB  /usr/bin/gnome-software --gapplication-s
+
+================================================================================
+[2026-02-04 21:49:49.624] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      8.64 GB (55.4%)
+  Available: 6.94 GB
+  Free:      3.32 GB
+  Cached:    3.84 GB
+  Swap Used: 0.51 / 1.91 GB
+
+GPU: 49°C
+  Used:  11057 MB (90.0%)
+  Free:  854 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  33.3%   5318.2MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   8.0%   1288.0MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   2.7%    443.7MB  /usr/share/antigravity/antigravity --typ
+  [  4353]   1.5%    250.9MB  /usr/bin/gnome-shell
+  [  4644]   1.5%    246.8MB  /usr/bin/gnome-software --gapplication-s
+
+================================================================================
+[2026-02-04 21:49:54.745] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      8.75 GB (56.1%)
+  Available: 6.84 GB
+  Free:      3.19 GB
+  Cached:    3.85 GB
+  Swap Used: 0.50 / 1.91 GB
+
+GPU: 49°C
+  Used:  11091 MB (90.3%)
+  Free:  820 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  33.3%   5318.2MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   8.0%   1288.0MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   2.8%    448.9MB  /usr/share/antigravity/antigravity --typ
+  [  4353]   2.0%    324.9MB  /usr/bin/gnome-shell
+  [  4644]   1.5%    246.8MB  /usr/bin/gnome-software --gapplication-s
+
+================================================================================
+[2026-02-04 21:49:59.882] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      8.76 GB (56.2%)
+  Available: 6.83 GB
+  Free:      3.15 GB
+  Cached:    3.88 GB
+  Swap Used: 0.50 / 1.91 GB
+
+GPU: 49°C
+  Used:  11090 MB (90.3%)
+  Free:  821 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  33.3%   5318.2MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   8.0%   1291.0MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   2.8%    455.7MB  /usr/share/antigravity/antigravity --typ
+  [  4353]   2.0%    328.4MB  /usr/bin/gnome-shell
+  [  4644]   1.5%    247.2MB  /usr/bin/gnome-software --gapplication-s
+
+================================================================================
+[2026-02-04 21:50:05.018] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      8.78 GB (56.3%)
+  Available: 6.81 GB
+  Free:      3.12 GB
+  Cached:    3.89 GB
+  Swap Used: 0.50 / 1.91 GB
+
+GPU: 49°C
+  Used:  11119 MB (90.5%)
+  Free:  792 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  33.3%   5318.2MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   8.0%   1291.1MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   2.8%    457.3MB  /usr/share/antigravity/antigravity --typ
+  [  4353]   2.0%    328.9MB  /usr/bin/gnome-shell
+  [  4644]   1.5%    247.2MB  /usr/bin/gnome-software --gapplication-s
+
+================================================================================
+[2026-02-04 21:50:10.151] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      8.75 GB (56.1%)
+  Available: 6.84 GB
+  Free:      3.15 GB
+  Cached:    3.89 GB
+  Swap Used: 0.50 / 1.91 GB
+
+GPU: 49°C
+  Used:  11119 MB (90.5%)
+  Free:  792 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  33.3%   5318.2MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   8.0%   1291.1MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   2.8%    448.1MB  /usr/share/antigravity/antigravity --typ
+  [  4353]   2.0%    328.9MB  /usr/bin/gnome-shell
+  [  4644]   1.5%    247.2MB  /usr/bin/gnome-software --gapplication-s
+
+================================================================================
+[2026-02-04 21:50:15.287] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      8.75 GB (56.2%)
+  Available: 6.83 GB
+  Free:      3.15 GB
+  Cached:    3.90 GB
+  Swap Used: 0.50 / 1.91 GB
+
+GPU: 48°C
+  Used:  11110 MB (90.4%)
+  Free:  800 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  33.3%   5318.2MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   8.0%   1291.1MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   2.8%    449.0MB  /usr/share/antigravity/antigravity --typ
+  [  4353]   2.0%    328.5MB  /usr/bin/gnome-shell
+  [  4644]   1.5%    247.2MB  /usr/bin/gnome-software --gapplication-s
+
+================================================================================
+[2026-02-04 21:50:20.418] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      8.77 GB (56.3%)
+  Available: 6.82 GB
+  Free:      3.13 GB
+  Cached:    3.90 GB
+  Swap Used: 0.50 / 1.91 GB
+
+GPU: 48°C
+  Used:  11110 MB (90.4%)
+  Free:  800 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  33.3%   5318.2MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   8.0%   1291.1MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   2.8%    448.9MB  /usr/share/antigravity/antigravity --typ
+  [  4353]   2.0%    328.5MB  /usr/bin/gnome-shell
+  [  4644]   1.5%    247.2MB  /usr/bin/gnome-software --gapplication-s
+
+================================================================================
+[2026-02-04 21:50:25.550] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      8.77 GB (56.3%)
+  Available: 6.82 GB
+  Free:      3.13 GB
+  Cached:    3.89 GB
+  Swap Used: 0.50 / 1.91 GB
+
+GPU: 48°C
+  Used:  11110 MB (90.4%)
+  Free:  800 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  33.3%   5318.2MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   8.0%   1291.1MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   2.8%    447.4MB  /usr/share/antigravity/antigravity --typ
+  [  4353]   2.0%    328.5MB  /usr/bin/gnome-shell
+  [  4644]   1.5%    247.2MB  /usr/bin/gnome-software --gapplication-s
+
+================================================================================
+[2026-02-04 21:50:30.678] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      8.75 GB (56.1%)
+  Available: 6.84 GB
+  Free:      3.15 GB
+  Cached:    3.90 GB
+  Swap Used: 0.50 / 1.91 GB
+
+GPU: 48°C
+  Used:  11116 MB (90.5%)
+  Free:  794 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  33.3%   5318.2MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   8.1%   1293.3MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   2.8%    452.4MB  /usr/share/antigravity/antigravity --typ
+  [  4353]   2.0%    328.7MB  /usr/bin/gnome-shell
+  [  4644]   1.5%    247.2MB  /usr/bin/gnome-software --gapplication-s
+
+================================================================================
+[2026-02-04 21:50:35.796] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      8.76 GB (56.2%)
+  Available: 6.83 GB
+  Free:      3.13 GB
+  Cached:    3.91 GB
+  Swap Used: 0.50 / 1.91 GB
+
+GPU: 48°C
+  Used:  11105 MB (90.4%)
+  Free:  806 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  33.3%   5318.2MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   8.1%   1293.3MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   2.8%    454.9MB  /usr/share/antigravity/antigravity --typ
+  [  4353]   2.0%    328.5MB  /usr/bin/gnome-shell
+  [  4644]   1.5%    247.6MB  /usr/bin/gnome-software --gapplication-s
+
+================================================================================
+[2026-02-04 21:50:40.914] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      8.79 GB (56.4%)
+  Available: 6.79 GB
+  Free:      3.00 GB
+  Cached:    4.00 GB
+  Swap Used: 0.50 / 1.91 GB
+
+GPU: 48°C
+  Used:  11080 MB (90.2%)
+  Free:  831 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  33.3%   5318.2MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   8.1%   1293.3MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   2.9%    463.9MB  /usr/share/antigravity/antigravity --typ
+  [  4353]   2.0%    329.3MB  /usr/bin/gnome-shell
+  [  4644]   1.5%    247.6MB  /usr/bin/gnome-software --gapplication-s
+
+================================================================================
+[2026-02-04 21:50:46.040] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      9.19 GB (59.0%)
+  Available: 6.40 GB
+  Free:      2.24 GB
+  Cached:    4.39 GB
+  Swap Used: 0.49 / 1.91 GB
+
+GPU: 49°C
+  Used:  11162 MB (90.8%)
+  Free:  749 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  33.3%   5318.2MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   8.1%   1293.3MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   2.9%    468.1MB  /usr/share/antigravity/antigravity --typ
+  [  4353]   2.0%    329.0MB  /usr/bin/gnome-shell
+  [ 68355]   1.9%    318.0MB  /opt/brave.com/brave/brave
+
+================================================================================
+[2026-02-04 21:50:51.151] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      9.25 GB (59.4%)
+  Available: 6.33 GB
+  Free:      2.16 GB
+  Cached:    4.40 GB
+  Swap Used: 0.49 / 1.91 GB
+
+GPU: 48°C
+  Used:  11142 MB (90.7%)
+  Free:  768 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  33.3%   5324.4MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   8.1%   1293.3MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   2.9%    466.4MB  /usr/share/antigravity/antigravity --typ
+  [ 68355]   2.1%    337.7MB  /opt/brave.com/brave/brave
+  [  4353]   2.0%    329.0MB  /usr/bin/gnome-shell
+
+================================================================================
+[2026-02-04 21:50:56.270] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      9.24 GB (59.3%)
+  Available: 6.35 GB
+  Free:      2.17 GB
+  Cached:    4.40 GB
+  Swap Used: 0.49 / 1.91 GB
+
+GPU: 48°C
+  Used:  11136 MB (90.6%)
+  Free:  774 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  33.3%   5324.4MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   8.1%   1293.3MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   2.9%    468.8MB  /usr/share/antigravity/antigravity --typ
+  [ 68355]   2.1%    338.4MB  /opt/brave.com/brave/brave
+  [  4353]   2.0%    328.9MB  /usr/bin/gnome-shell
+
+================================================================================
+[2026-02-04 21:51:01.390] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      9.19 GB (58.9%)
+  Available: 6.40 GB
+  Free:      2.22 GB
+  Cached:    4.40 GB
+  Swap Used: 0.49 / 1.91 GB
+
+GPU: 48°C
+  Used:  11128 MB (90.6%)
+  Free:  782 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  33.3%   5324.4MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   8.1%   1293.3MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   2.9%    468.0MB  /usr/share/antigravity/antigravity --typ
+  [ 68355]   2.1%    338.1MB  /opt/brave.com/brave/brave
+  [  4353]   2.0%    328.9MB  /usr/bin/gnome-shell
+
+================================================================================
+[2026-02-04 21:51:06.526] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      9.19 GB (58.9%)
+  Available: 6.40 GB
+  Free:      2.22 GB
+  Cached:    4.40 GB
+  Swap Used: 0.49 / 1.91 GB
+
+GPU: 48°C
+  Used:  11138 MB (90.6%)
+  Free:  773 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  33.3%   5324.5MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   8.1%   1293.3MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   2.9%    465.9MB  /usr/share/antigravity/antigravity --typ
+  [ 68355]   2.1%    337.7MB  /opt/brave.com/brave/brave
+  [  4353]   2.0%    328.8MB  /usr/bin/gnome-shell
+
+================================================================================
+[2026-02-04 21:51:11.659] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      9.16 GB (58.8%)
+  Available: 6.42 GB
+  Free:      2.25 GB
+  Cached:    4.40 GB
+  Swap Used: 0.49 / 1.91 GB
+
+GPU: 48°C
+  Used:  11123 MB (90.5%)
+  Free:  787 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  33.3%   5324.5MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   8.1%   1293.3MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   2.9%    467.3MB  /usr/share/antigravity/antigravity --typ
+  [ 68355]   2.1%    339.3MB  /opt/brave.com/brave/brave
+  [  4353]   2.0%    328.9MB  /usr/bin/gnome-shell
+
+================================================================================
+[2026-02-04 21:51:16.779] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      9.30 GB (59.7%)
+  Available: 6.28 GB
+  Free:      2.10 GB
+  Cached:    4.41 GB
+  Swap Used: 0.49 / 1.91 GB
+
+GPU: 48°C
+  Used:  11167 MB (90.9%)
+  Free:  743 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  33.4%   5337.8MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   8.1%   1293.3MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   2.9%    466.7MB  /usr/share/antigravity/antigravity --typ
+  [ 68355]   2.1%    345.5MB  /opt/brave.com/brave/brave
+  [  4353]   2.0%    328.9MB  /usr/bin/gnome-shell
+
+================================================================================
+[2026-02-04 21:51:21.908] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      9.33 GB (59.8%)
+  Available: 6.26 GB
+  Free:      2.04 GB
+  Cached:    4.44 GB
+  Swap Used: 0.49 / 1.91 GB
+
+GPU: 48°C
+  Used:  11173 MB (90.9%)
+  Free:  737 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  33.5%   5362.0MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   8.1%   1293.3MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   2.9%    467.2MB  /usr/share/antigravity/antigravity --typ
+  [ 68355]   2.2%    356.3MB  /opt/brave.com/brave/brave
+  [  4353]   2.0%    328.8MB  /usr/bin/gnome-shell
+
+================================================================================
+[2026-02-04 21:51:27.048] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      9.27 GB (59.5%)
+  Available: 6.31 GB
+  Free:      2.09 GB
+  Cached:    4.44 GB
+  Swap Used: 0.49 / 1.91 GB
+
+GPU: 48°C
+  Used:  11163 MB (90.8%)
+  Free:  747 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  33.5%   5362.0MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   8.1%   1293.3MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   2.9%    466.5MB  /usr/share/antigravity/antigravity --typ
+  [ 68355]   2.2%    356.5MB  /opt/brave.com/brave/brave
+  [  4353]   2.0%    328.6MB  /usr/bin/gnome-shell
+
+================================================================================
+[2026-02-04 21:51:32.194] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      9.26 GB (59.4%)
+  Available: 6.32 GB
+  Free:      2.10 GB
+  Cached:    4.44 GB
+  Swap Used: 0.49 / 1.91 GB
+
+GPU: 48°C
+  Used:  11172 MB (90.9%)
+  Free:  738 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  33.5%   5362.3MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   8.1%   1293.3MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   2.9%    466.3MB  /usr/share/antigravity/antigravity --typ
+  [ 68355]   2.2%    356.3MB  /opt/brave.com/brave/brave
+  [  4353]   2.0%    328.6MB  /usr/bin/gnome-shell
+
+================================================================================
+[2026-02-04 21:51:37.314] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      9.30 GB (59.6%)
+  Available: 6.29 GB
+  Free:      2.07 GB
+  Cached:    4.44 GB
+  Swap Used: 0.49 / 1.91 GB
+
+GPU: 47°C
+  Used:  11146 MB (90.7%)
+  Free:  765 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  33.6%   5362.6MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   8.1%   1293.3MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   2.9%    467.3MB  /usr/share/antigravity/antigravity --typ
+  [ 68355]   2.2%    356.3MB  /opt/brave.com/brave/brave
+  [  4353]   2.0%    328.6MB  /usr/bin/gnome-shell
+
+================================================================================
+[2026-02-04 21:51:42.415] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      9.41 GB (60.4%)
+  Available: 6.18 GB
+  Free:      1.94 GB
+  Cached:    4.46 GB
+  Swap Used: 0.49 / 1.91 GB
+
+GPU: 50°C
+  Used:  11166 MB (90.9%)
+  Free:  744 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  34.2%   5473.1MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   8.1%   1293.4MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   2.9%    466.7MB  /usr/share/antigravity/antigravity --typ
+  [ 68355]   2.2%    355.5MB  /opt/brave.com/brave/brave
+  [  4353]   2.0%    328.6MB  /usr/bin/gnome-shell
+
+================================================================================
+[2026-02-04 21:51:47.512] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      9.39 GB (60.2%)
+  Available: 6.20 GB
+  Free:      1.96 GB
+  Cached:    4.46 GB
+  Swap Used: 0.49 / 1.91 GB
+
+GPU: 50°C
+  Used:  11193 MB (91.1%)
+  Free:  718 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  34.2%   5473.1MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   8.1%   1293.4MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   2.9%    465.8MB  /usr/share/antigravity/antigravity --typ
+  [ 68355]   2.2%    356.3MB  /opt/brave.com/brave/brave
+  [  4353]   2.1%    335.5MB  /usr/bin/gnome-shell
+
+================================================================================
+[2026-02-04 21:51:52.610] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      9.40 GB (60.3%)
+  Available: 6.18 GB
+  Free:      1.94 GB
+  Cached:    4.46 GB
+  Swap Used: 0.49 / 1.91 GB
+
+GPU: 51°C
+  Used:  11163 MB (90.8%)
+  Free:  748 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  34.2%   5473.1MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   8.1%   1293.4MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   2.9%    465.4MB  /usr/share/antigravity/antigravity --typ
+  [ 68355]   2.2%    356.1MB  /opt/brave.com/brave/brave
+  [  4353]   2.1%    338.1MB  /usr/bin/gnome-shell
+
+================================================================================
+[2026-02-04 21:51:57.731] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      9.09 GB (58.3%)
+  Available: 6.49 GB
+  Free:      2.24 GB
+  Cached:    4.47 GB
+  Swap Used: 0.49 / 1.91 GB
+
+GPU: 50°C
+  Used:  11168 MB (90.9%)
+  Free:  743 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  34.2%   5473.1MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   5.5%    879.4MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   2.9%    472.2MB  /usr/share/antigravity/antigravity --typ
+  [ 68355]   2.2%    355.4MB  /opt/brave.com/brave/brave
+  [  4353]   2.1%    337.5MB  /usr/bin/gnome-shell
+
+================================================================================
+[2026-02-04 21:52:02.882] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      8.99 GB (57.7%)
+  Available: 6.60 GB
+  Free:      2.34 GB
+  Cached:    4.48 GB
+  Swap Used: 0.49 / 1.91 GB
+
+GPU: 49°C
+  Used:  11156 MB (90.8%)
+  Free:  755 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  34.2%   5473.1MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   5.5%    879.5MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   2.9%    476.5MB  /usr/share/antigravity/antigravity --typ
+  [ 68355]   2.2%    355.4MB  /opt/brave.com/brave/brave
+  [  4353]   2.1%    337.5MB  /usr/bin/gnome-shell
+
+================================================================================
+[2026-02-04 21:52:08.018] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      8.99 GB (57.7%)
+  Available: 6.59 GB
+  Free:      2.33 GB
+  Cached:    4.48 GB
+  Swap Used: 0.49 / 1.91 GB
+
+GPU: 49°C
+  Used:  11153 MB (90.8%)
+  Free:  758 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  34.2%   5473.1MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   5.5%    879.5MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   3.0%    482.6MB  /usr/share/antigravity/antigravity --typ
+  [ 68355]   2.2%    355.4MB  /opt/brave.com/brave/brave
+  [  4353]   2.1%    337.5MB  /usr/bin/gnome-shell
+
+================================================================================
+[2026-02-04 21:52:13.159] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      8.99 GB (57.7%)
+  Available: 6.60 GB
+  Free:      2.34 GB
+  Cached:    4.48 GB
+  Swap Used: 0.49 / 1.91 GB
+
+GPU: 49°C
+  Used:  11156 MB (90.8%)
+  Free:  755 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  34.2%   5473.1MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   5.5%    879.5MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   3.0%    488.0MB  /usr/share/antigravity/antigravity --typ
+  [ 68355]   2.2%    355.4MB  /opt/brave.com/brave/brave
+  [  4353]   2.1%    337.4MB  /usr/bin/gnome-shell
+
+================================================================================
+[2026-02-04 21:52:18.308] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      8.99 GB (57.7%)
+  Available: 6.60 GB
+  Free:      2.34 GB
+  Cached:    4.48 GB
+  Swap Used: 0.49 / 1.91 GB
+
+GPU: 49°C
+  Used:  11149 MB (90.7%)
+  Free:  761 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  34.2%   5473.1MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   5.5%    879.5MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   2.9%    478.6MB  /usr/share/antigravity/antigravity --typ
+  [ 68355]   2.2%    355.4MB  /opt/brave.com/brave/brave
+  [  4353]   2.1%    337.4MB  /usr/bin/gnome-shell
+
+================================================================================
+[2026-02-04 21:52:23.477] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      9.00 GB (57.8%)
+  Available: 6.58 GB
+  Free:      2.32 GB
+  Cached:    4.48 GB
+  Swap Used: 0.49 / 1.91 GB
+
+GPU: 49°C
+  Used:  11157 MB (90.8%)
+  Free:  753 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  34.2%   5473.1MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   5.5%    879.5MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   3.0%    487.5MB  /usr/share/antigravity/antigravity --typ
+  [ 68355]   2.2%    355.5MB  /opt/brave.com/brave/brave
+  [  4353]   2.1%    337.4MB  /usr/bin/gnome-shell
+
+================================================================================
+[2026-02-04 21:52:28.611] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      9.02 GB (57.9%)
+  Available: 6.57 GB
+  Free:      2.31 GB
+  Cached:    4.49 GB
+  Swap Used: 0.49 / 1.91 GB
+
+GPU: 49°C
+  Used:  11156 MB (90.8%)
+  Free:  755 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  34.2%   5473.1MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   5.5%    879.5MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   3.0%    483.7MB  /usr/share/antigravity/antigravity --typ
+  [ 68355]   2.2%    355.5MB  /opt/brave.com/brave/brave
+  [  4353]   2.1%    337.4MB  /usr/bin/gnome-shell
+
+================================================================================
+[2026-02-04 21:52:33.758] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      9.00 GB (57.8%)
+  Available: 6.58 GB
+  Free:      2.32 GB
+  Cached:    4.50 GB
+  Swap Used: 0.49 / 1.91 GB
+
+GPU: 49°C
+  Used:  11161 MB (90.8%)
+  Free:  750 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  34.2%   5473.1MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   5.5%    879.5MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   3.0%    490.1MB  /usr/share/antigravity/antigravity --typ
+  [ 68355]   2.2%    355.5MB  /opt/brave.com/brave/brave
+  [  4353]   2.1%    337.4MB  /usr/bin/gnome-shell
+
+================================================================================
+[2026-02-04 21:52:38.910] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      9.00 GB (57.7%)
+  Available: 6.59 GB
+  Free:      2.32 GB
+  Cached:    4.48 GB
+  Swap Used: 0.49 / 1.91 GB
+
+GPU: 49°C
+  Used:  11150 MB (90.7%)
+  Free:  760 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  34.2%   5473.1MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   5.5%    879.5MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   3.0%    490.2MB  /usr/share/antigravity/antigravity --typ
+  [ 68355]   2.2%    355.5MB  /opt/brave.com/brave/brave
+  [  4353]   2.1%    337.4MB  /usr/bin/gnome-shell
+
+================================================================================
+[2026-02-04 21:52:44.052] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      8.99 GB (57.7%)
+  Available: 6.59 GB
+  Free:      2.33 GB
+  Cached:    4.48 GB
+  Swap Used: 0.49 / 1.91 GB
+
+GPU: 48°C
+  Used:  11150 MB (90.7%)
+  Free:  761 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  34.2%   5473.1MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   5.5%    879.5MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   3.0%    489.9MB  /usr/share/antigravity/antigravity --typ
+  [ 68355]   2.2%    355.6MB  /opt/brave.com/brave/brave
+  [  4353]   2.1%    337.4MB  /usr/bin/gnome-shell
+
+================================================================================
+[2026-02-04 21:52:49.192] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      8.99 GB (57.7%)
+  Available: 6.60 GB
+  Free:      2.33 GB
+  Cached:    4.48 GB
+  Swap Used: 0.49 / 1.91 GB
+
+GPU: 48°C
+  Used:  11155 MB (90.8%)
+  Free:  756 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  34.2%   5473.1MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   5.5%    879.5MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   3.1%    495.5MB  /usr/share/antigravity/antigravity --typ
+  [ 68355]   2.2%    355.5MB  /opt/brave.com/brave/brave
+  [  4353]   2.1%    337.4MB  /usr/bin/gnome-shell
+
+================================================================================
+[2026-02-04 21:52:54.335] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      9.01 GB (57.8%)
+  Available: 6.57 GB
+  Free:      2.30 GB
+  Cached:    4.48 GB
+  Swap Used: 0.49 / 1.91 GB
+
+GPU: 48°C
+  Used:  11148 MB (90.7%)
+  Free:  762 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  34.2%   5473.1MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   5.5%    879.5MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   3.1%    496.2MB  /usr/share/antigravity/antigravity --typ
+  [ 68355]   2.2%    355.8MB  /opt/brave.com/brave/brave
+  [  4353]   2.1%    337.4MB  /usr/bin/gnome-shell
+
+================================================================================
+[2026-02-04 21:52:59.479] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      9.02 GB (57.9%)
+  Available: 6.57 GB
+  Free:      2.30 GB
+  Cached:    4.49 GB
+  Swap Used: 0.49 / 1.91 GB
+
+GPU: 48°C
+  Used:  11148 MB (90.7%)
+  Free:  763 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  34.2%   5473.1MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   5.5%    879.5MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   3.1%    498.3MB  /usr/share/antigravity/antigravity --typ
+  [ 68355]   2.2%    355.5MB  /opt/brave.com/brave/brave
+  [  4353]   2.1%    337.5MB  /usr/bin/gnome-shell
+
+================================================================================
+[2026-02-04 21:53:04.626] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      8.98 GB (57.6%)
+  Available: 6.60 GB
+  Free:      2.33 GB
+  Cached:    4.50 GB
+  Swap Used: 0.49 / 1.91 GB
+
+GPU: 48°C
+  Used:  11145 MB (90.7%)
+  Free:  766 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  34.2%   5473.1MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   5.5%    879.5MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   3.1%    496.8MB  /usr/share/antigravity/antigravity --typ
+  [ 68355]   2.2%    355.5MB  /opt/brave.com/brave/brave
+  [  4353]   2.1%    337.5MB  /usr/bin/gnome-shell
+
+================================================================================
+[2026-02-04 21:53:09.772] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      8.97 GB (57.5%)
+  Available: 6.62 GB
+  Free:      2.35 GB
+  Cached:    4.50 GB
+  Swap Used: 0.49 / 1.91 GB
+
+GPU: 48°C
+  Used:  11146 MB (90.7%)
+  Free:  765 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  34.2%   5473.1MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   5.5%    879.5MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   3.1%    495.7MB  /usr/share/antigravity/antigravity --typ
+  [ 68355]   2.2%    355.5MB  /opt/brave.com/brave/brave
+  [  4353]   2.1%    337.4MB  /usr/bin/gnome-shell
+
+================================================================================
+[2026-02-04 21:53:14.911] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      8.99 GB (57.7%)
+  Available: 6.59 GB
+  Free:      2.32 GB
+  Cached:    4.48 GB
+  Swap Used: 0.49 / 1.91 GB
+
+GPU: 48°C
+  Used:  11144 MB (90.7%)
+  Free:  767 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  34.2%   5473.1MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   5.5%    879.5MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   3.1%    497.0MB  /usr/share/antigravity/antigravity --typ
+  [ 68355]   2.2%    355.5MB  /opt/brave.com/brave/brave
+  [  4353]   2.1%    337.4MB  /usr/bin/gnome-shell
+
+================================================================================
+[2026-02-04 21:53:20.048] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      9.01 GB (57.8%)
+  Available: 6.58 GB
+  Free:      2.31 GB
+  Cached:    4.48 GB
+  Swap Used: 0.49 / 1.91 GB
+
+GPU: 48°C
+  Used:  11142 MB (90.7%)
+  Free:  768 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  34.2%   5473.1MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   5.5%    879.5MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   3.1%    497.9MB  /usr/share/antigravity/antigravity --typ
+  [ 68355]   2.2%    355.5MB  /opt/brave.com/brave/brave
+  [  4353]   2.1%    337.4MB  /usr/bin/gnome-shell
+
+================================================================================
+[2026-02-04 21:53:25.188] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      9.00 GB (57.8%)
+  Available: 6.58 GB
+  Free:      2.31 GB
+  Cached:    4.48 GB
+  Swap Used: 0.49 / 1.91 GB
+
+GPU: 48°C
+  Used:  11143 MB (90.7%)
+  Free:  768 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  34.2%   5473.1MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   5.5%    879.5MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   3.1%    497.3MB  /usr/share/antigravity/antigravity --typ
+  [ 68355]   2.2%    355.5MB  /opt/brave.com/brave/brave
+  [  4353]   2.1%    337.4MB  /usr/bin/gnome-shell
+
+================================================================================
+[2026-02-04 21:53:30.334] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      9.02 GB (57.8%)
+  Available: 6.57 GB
+  Free:      2.30 GB
+  Cached:    4.48 GB
+  Swap Used: 0.49 / 1.91 GB
+
+GPU: 48°C
+  Used:  11148 MB (90.7%)
+  Free:  762 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  34.2%   5473.1MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   5.5%    879.5MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   3.1%    498.8MB  /usr/share/antigravity/antigravity --typ
+  [ 68355]   2.2%    355.5MB  /opt/brave.com/brave/brave
+  [  4353]   2.1%    337.4MB  /usr/bin/gnome-shell
+
+================================================================================
+[2026-02-04 21:53:35.480] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      9.01 GB (57.8%)
+  Available: 6.57 GB
+  Free:      2.31 GB
+  Cached:    4.48 GB
+  Swap Used: 0.49 / 1.91 GB
+
+GPU: 48°C
+  Used:  11148 MB (90.7%)
+  Free:  762 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  34.2%   5473.1MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   5.5%    879.5MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   3.1%    500.8MB  /usr/share/antigravity/antigravity --typ
+  [ 68355]   2.2%    355.5MB  /opt/brave.com/brave/brave
+  [  4353]   2.1%    337.4MB  /usr/bin/gnome-shell
+
+================================================================================
+[2026-02-04 21:53:40.618] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      8.98 GB (57.6%)
+  Available: 6.61 GB
+  Free:      2.34 GB
+  Cached:    4.49 GB
+  Swap Used: 0.49 / 1.91 GB
+
+GPU: 48°C
+  Used:  11153 MB (90.8%)
+  Free:  758 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  34.2%   5473.1MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   5.5%    879.5MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   3.1%    501.9MB  /usr/share/antigravity/antigravity --typ
+  [ 68355]   2.2%    355.5MB  /opt/brave.com/brave/brave
+  [  4353]   2.1%    337.5MB  /usr/bin/gnome-shell
+
+================================================================================
+[2026-02-04 21:53:45.752] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      9.00 GB (57.8%)
+  Available: 6.58 GB
+  Free:      2.30 GB
+  Cached:    4.50 GB
+  Swap Used: 0.49 / 1.91 GB
+
+GPU: 47°C
+  Used:  11178 MB (91.0%)
+  Free:  733 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  34.2%   5473.1MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   5.5%    889.2MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   3.1%    503.5MB  /usr/share/antigravity/antigravity --typ
+  [ 68355]   2.2%    355.5MB  /opt/brave.com/brave/brave
+  [  4353]   2.1%    337.5MB  /usr/bin/gnome-shell
+
+================================================================================
+[2026-02-04 21:53:50.890] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      9.02 GB (57.9%)
+  Available: 6.56 GB
+  Free:      2.28 GB
+  Cached:    4.50 GB
+  Swap Used: 0.49 / 1.91 GB
+
+GPU: 48°C
+  Used:  11143 MB (90.7%)
+  Free:  768 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  34.2%   5473.1MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   5.5%    889.2MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   3.1%    502.2MB  /usr/share/antigravity/antigravity --typ
+  [ 68355]   2.2%    355.5MB  /opt/brave.com/brave/brave
+  [  4353]   2.1%    337.5MB  /usr/bin/gnome-shell
+
+================================================================================
+[2026-02-04 21:53:56.025] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      9.09 GB (58.3%)
+  Available: 6.50 GB
+  Free:      2.21 GB
+  Cached:    4.51 GB
+  Swap Used: 0.49 / 1.91 GB
+
+GPU: 47°C
+  Used:  11143 MB (90.7%)
+  Free:  768 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  34.2%   5473.1MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   5.8%    927.9MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   3.2%    520.9MB  /usr/share/antigravity/antigravity --typ
+  [ 68355]   2.2%    355.5MB  /opt/brave.com/brave/brave
+  [  4353]   2.1%    337.5MB  /usr/bin/gnome-shell
+
+================================================================================
+[2026-02-04 21:54:01.160] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      9.14 GB (58.6%)
+  Available: 6.45 GB
+  Free:      2.16 GB
+  Cached:    4.51 GB
+  Swap Used: 0.49 / 1.91 GB
+
+GPU: 47°C
+  Used:  11148 MB (90.7%)
+  Free:  762 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  34.2%   5473.1MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   5.8%    928.1MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   3.5%    565.5MB  /usr/share/antigravity/antigravity --typ
+  [ 68355]   2.2%    355.5MB  /opt/brave.com/brave/brave
+  [  4353]   2.1%    337.5MB  /usr/bin/gnome-shell
+
+================================================================================
+[2026-02-04 21:54:06.296] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      9.16 GB (58.8%)
+  Available: 6.42 GB
+  Free:      2.14 GB
+  Cached:    4.52 GB
+  Swap Used: 0.49 / 1.91 GB
+
+GPU: 47°C
+  Used:  11144 MB (90.7%)
+  Free:  766 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  34.2%   5473.1MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   5.8%    928.3MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   3.5%    565.3MB  /usr/share/antigravity/antigravity --typ
+  [ 68355]   2.2%    355.5MB  /opt/brave.com/brave/brave
+  [  4353]   2.1%    337.5MB  /usr/bin/gnome-shell
+
+================================================================================
+[2026-02-04 21:54:11.442] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      9.08 GB (58.2%)
+  Available: 6.51 GB
+  Free:      2.22 GB
+  Cached:    4.50 GB
+  Swap Used: 0.49 / 1.91 GB
+
+GPU: 47°C
+  Used:  11158 MB (90.8%)
+  Free:  753 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  34.2%   5473.1MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   5.8%    929.7MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   3.5%    570.6MB  /usr/share/antigravity/antigravity --typ
+  [ 68355]   2.2%    355.5MB  /opt/brave.com/brave/brave
+  [  4353]   2.1%    337.5MB  /usr/bin/gnome-shell
+
+================================================================================
+[2026-02-04 21:54:16.584] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      9.10 GB (58.4%)
+  Available: 6.48 GB
+  Free:      2.19 GB
+  Cached:    4.50 GB
+  Swap Used: 0.49 / 1.91 GB
+
+GPU: 47°C
+  Used:  11144 MB (90.7%)
+  Free:  766 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  34.2%   5473.1MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   5.8%    929.7MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   3.5%    569.2MB  /usr/share/antigravity/antigravity --typ
+  [ 68355]   2.2%    355.5MB  /opt/brave.com/brave/brave
+  [  4353]   2.1%    337.5MB  /usr/bin/gnome-shell
+
+================================================================================
+[2026-02-04 21:54:21.722] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      9.09 GB (58.3%)
+  Available: 6.50 GB
+  Free:      2.21 GB
+  Cached:    4.50 GB
+  Swap Used: 0.49 / 1.91 GB
+
+GPU: 47°C
+  Used:  11143 MB (90.7%)
+  Free:  767 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  34.2%   5473.1MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   5.8%    934.5MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   3.5%    567.5MB  /usr/share/antigravity/antigravity --typ
+  [ 68355]   2.2%    355.5MB  /opt/brave.com/brave/brave
+  [  4353]   2.1%    337.6MB  /usr/bin/gnome-shell
+
+================================================================================
+[2026-02-04 21:54:26.856] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      9.10 GB (58.4%)
+  Available: 6.49 GB
+  Free:      2.19 GB
+  Cached:    4.50 GB
+  Swap Used: 0.49 / 1.91 GB
+
+GPU: 47°C
+  Used:  11138 MB (90.6%)
+  Free:  772 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  34.2%   5473.1MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   5.8%    934.5MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   3.5%    571.2MB  /usr/share/antigravity/antigravity --typ
+  [ 68355]   2.2%    355.5MB  /opt/brave.com/brave/brave
+  [  4353]   2.1%    337.6MB  /usr/bin/gnome-shell
+
+================================================================================
+[2026-02-04 21:54:31.992] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      9.14 GB (58.7%)
+  Available: 6.44 GB
+  Free:      2.15 GB
+  Cached:    4.51 GB
+  Swap Used: 0.49 / 1.91 GB
+
+GPU: 47°C
+  Used:  11158 MB (90.8%)
+  Free:  752 MB
+  Total: 12288 MB
+
+Top Processes:
+  [ 67033]  34.2%   5473.1MB  python3 -m acestep.acestep_v15_pipeline 
+  [  9222]   5.8%    935.8MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   3.6%    577.4MB  /usr/share/antigravity/antigravity --typ
+  [ 68355]   2.2%    355.5MB  /opt/brave.com/brave/brave
+  [  4353]   2.1%    337.5MB  /usr/bin/gnome-shell
+
+################################################################################
+# ACE-Step Memory Logger Stopped
+# Time: 2026-02-04T21:54:34.014804
+################################################################################
+

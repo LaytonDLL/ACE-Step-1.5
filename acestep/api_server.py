@@ -39,10 +39,26 @@ try:
 except ImportError:  # Optional dependency
     load_dotenv = None  # type: ignore
 
+# =============================================================================
+# Memory Management (Must be first to limit PyTorch/CUDA)
+# =============================================================================
+try:
+    # Set the flag to true to force 4GB mode environment variables if not set
+    # This must happen before torch is imported by other modules
+    os.environ.setdefault("ACESTEP_MEMORY_LIMIT_GB", "4")
+    os.environ.setdefault("PYTORCH_CUDA_ALLOC_CONF", "garbage_collection_threshold:0.6,max_split_size_mb:128")
+    
+    from acestep.memory_manager import apply_memory_limits
+    apply_memory_limits()
+    _memory_manager_available = True
+except ImportError:
+    _memory_manager_available = False
+
 from fastapi import FastAPI, HTTPException, Request, Depends, Header
 from pydantic import BaseModel, Field
 from starlette.datastructures import UploadFile as StarletteUploadFile
 
+# Normal imports continue...
 from acestep.handler import AceStepHandler
 from acestep.llm_inference import LLMHandler
 from acestep.constants import (

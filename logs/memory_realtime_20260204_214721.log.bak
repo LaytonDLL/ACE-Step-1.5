@@ -1,0 +1,59 @@
+
+################################################################################
+# ACE-Step Memory Logger Started
+# Time: 2026-02-04T21:46:14.392414
+# Min Free RAM Threshold: 5.0GB
+################################################################################
+
+
+================================================================================
+[2026-02-04 21:46:14.425] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      4.11 GB (26.4%)
+  Available: 11.47 GB
+  Free:      8.64 GB
+  Cached:    2.84 GB
+  Swap Used: 0.00 / 1.91 GB
+
+GPU: 45°C
+  Used:  215 MB (1.7%)
+  Free:  11696 MB
+  Total: 12288 MB
+
+Top Processes:
+  [  9222]   8.0%   1290.2MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   4.0%    648.6MB  /usr/share/antigravity/antigravity --typ
+  [  4353]   2.7%    434.0MB  /usr/bin/gnome-shell
+  [  4644]   2.5%    406.8MB  /usr/bin/gnome-software --gapplication-s
+  [  8060]   1.6%    267.1MB  /usr/share/antigravity/antigravity --typ
+
+================================================================================
+[2026-02-04 21:46:19.556] MEMORY SNAPSHOT
+================================================================================
+RAM: 🟢 OK
+  Total:     15.59 GB
+  Used:      4.68 GB (30.0%)
+  Available: 10.91 GB
+  Free:      7.72 GB
+  Cached:    3.19 GB
+  Swap Used: 0.00 / 1.91 GB
+
+GPU: 45°C
+  Used:  210 MB (1.7%)
+  Free:  11700 MB
+  Total: 12288 MB
+
+Top Processes:
+  [  9222]   8.0%   1291.1MB  /usr/share/antigravity/resources/app/ext
+  [  8083]   4.0%    649.6MB  /usr/share/antigravity/antigravity --typ
+  [ 60096]   3.6%    587.4MB  python3 -m acestep.acestep_v15_pipeline 
+  [  4353]   2.7%    433.9MB  /usr/bin/gnome-shell
+  [  4644]   2.5%    406.8MB  /usr/bin/gnome-software --gapplication-s
+
+################################################################################
+# ACE-Step Memory Logger Stopped
+# Time: 2026-02-04T21:46:24.642827
+################################################################################
+

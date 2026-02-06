@@ -5,25 +5,37 @@ Handler wrapper connecting model and UI
 import os
 import sys
 
+# =============================================================================
+# Memory Management (Must be first to limit PyTorch/CUDA)
+# =============================================================================
+try:
+    # Set default memory limits for safety
+    os.environ.setdefault("ACESTEP_MEMORY_LIMIT_GB", "4")
+    os.environ.setdefault("PYTORCH_CUDA_ALLOC_CONF", "garbage_collection_threshold:0.6,max_split_size_mb:128")
+    
+    # Check if we are running as a module or script to find memory_manager
+    try:
+        from .memory_manager import apply_memory_limits
+    except (ImportError, ValueError):
+        project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        if project_root not in sys.path:
+            sys.path.insert(0, project_root)
+        from acestep.memory_manager import apply_memory_limits
+    
+    apply_memory_limits()
+except Exception as e:
+    print(f"Warning: Failed to apply memory limits early: {e}")
+
 # Load environment variables from .env file in project root
-# This allows configuration without hardcoding values
-# Falls back to .env.example if .env is not found
 try:
     from dotenv import load_dotenv
-    # Get project root directory
     _current_file = os.path.abspath(__file__)
     _project_root = os.path.dirname(os.path.dirname(_current_file))
     _env_path = os.path.join(_project_root, '.env')
-    _env_example_path = os.path.join(_project_root, '.env.example')
     
     if os.path.exists(_env_path):
         load_dotenv(_env_path)
-        print(f"Loaded configuration from {_env_path}")
-    elif os.path.exists(_env_example_path):
-        load_dotenv(_env_example_path)
-        print(f"Loaded configuration from {_env_example_path} (fallback)")
 except ImportError:
-    # python-dotenv not installed, skip loading .env
     pass
 
 # Clear proxy settings that may affect Gradio
@@ -37,11 +49,8 @@ try:
     from .dataset_handler import DatasetHandler
     from .gradio_ui import create_gradio_interface
     from .gpu_config import get_gpu_config, get_gpu_memory_gb, print_gpu_config_info, set_global_gpu_config
-except ImportError:
+except (ImportError, ValueError):
     # When executed as a script: `python acestep/acestep_v15_pipeline.py`
-    project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    if project_root not in sys.path:
-        sys.path.insert(0, project_root)
     from acestep.handler import AceStepHandler
     from acestep.llm_inference import LLMHandler
     from acestep.dataset_handler import DatasetHandler
@@ -119,7 +128,7 @@ def main():
     parser.add_argument("--share", action="store_true", help="Create a public link")
     parser.add_argument("--debug", action="store_true", help="Enable debug mode")
     parser.add_argument("--server-name", type=str, default="127.0.0.1", help="Server name (default: 127.0.0.1, use 0.0.0.0 for all interfaces)")
-    parser.add_argument("--language", type=str, default="en", choices=["en", "zh", "ja"], help="UI language: en (English), zh (中文), ja (日本語)")
+    parser.add_argument("--language", type=str, default="en", choices=["en", "zh", "ja", "pt"], help="UI language: en (English), zh (中文), ja (日本語), pt (Português)")
     
     # Service mode argument
     parser.add_argument("--service_mode", type=lambda x: x.lower() in ['true', '1', 'yes'], default=False, 
@@ -129,13 +138,19 @@ def main():
     parser.add_argument("--init_service", type=lambda x: x.lower() in ['true', '1', 'yes'], default=False, help="Initialize service on startup (default: False)")
     parser.add_argument("--checkpoint", type=str, default=None, help="Checkpoint file path (optional, for display purposes)")
     parser.add_argument("--config_path", type=str, default=None, help="Main model path (e.g., 'acestep-v15-turbo')")
-    parser.add_argument("--device", type=str, default="auto", choices=["auto", "cuda", "cpu", "xpu"], help="Processing device (default: auto)")
+    parser.add_argument("--device", type=str, default=os.environ.get("ACESTEP_DEVICE", "auto"), choices=["auto", "cuda", "cpu", "xpu"], help="Processing device (default: from .env or auto)")
     parser.add_argument("--init_llm", type=lambda x: x.lower() in ['true', '1', 'yes'], default=None, help="Initialize 5Hz LM (default: auto based on GPU memory)")
     parser.add_argument("--lm_model_path", type=str, default=None, help="5Hz LM model path (e.g., 'acestep-5Hz-lm-0.6B')")
-    parser.add_argument("--backend", type=str, default="vllm", choices=["vllm", "pt"], help="5Hz LM backend (default: vllm)")
+    parser.add_argument("--backend", type=str, default=os.environ.get("ACESTEP_LM_BACKEND", "vllm"), choices=["vllm", "pt"], help="5Hz LM backend (default: from .env or vllm)")
     parser.add_argument("--use_flash_attention", type=lambda x: x.lower() in ['true', '1', 'yes'], default=None, help="Use flash attention (default: auto-detect)")
-    parser.add_argument("--offload_to_cpu", type=lambda x: x.lower() in ['true', '1', 'yes'], default=auto_offload, help=f"Offload models to CPU (default: {'True' if auto_offload else 'False'}, auto-detected based on GPU VRAM)")
-    parser.add_argument("--offload_dit_to_cpu", type=lambda x: x.lower() in ['true', '1', 'yes'], default=False, help="Offload DiT to CPU (default: False)")
+    # Read offload settings from .env FIRST, then fall back to auto_offload
+    env_offload = os.environ.get("ACESTEP_OFFLOAD_TO_CPU", "").lower() in ("true", "1", "yes")
+    env_offload_dit = os.environ.get("ACESTEP_OFFLOAD_DIT_TO_CPU", "").lower() in ("true", "1", "yes")
+    # Only use auto_offload if .env doesn't explicitly set it
+    default_offload = env_offload if os.environ.get("ACESTEP_OFFLOAD_TO_CPU") else auto_offload
+    default_offload_dit = env_offload_dit if os.environ.get("ACESTEP_OFFLOAD_DIT_TO_CPU") else False
+    parser.add_argument("--offload_to_cpu", type=lambda x: x.lower() in ['true', '1', 'yes'], default=default_offload, help=f"Offload models to CPU (default: {default_offload}, from .env)")
+    parser.add_argument("--offload_dit_to_cpu", type=lambda x: x.lower() in ['true', '1', 'yes'], default=default_offload_dit, help=f"Offload DiT to CPU (default: {default_offload_dit}, from .env)")
 
     # API mode argument
     parser.add_argument("--enable-api", action="store_true", help="Enable API endpoints (default: False)")

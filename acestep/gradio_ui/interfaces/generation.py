@@ -70,6 +70,7 @@ def create_generation_section(dit_handler, llm_handler, init_params=None, langua
                         ("English", "en"),
                         ("中文", "zh"),
                         ("日本語", "ja"),
+                        ("Português", "pt"),
                     ],
                     value=current_language,
                     label=t("service.language_label"),
